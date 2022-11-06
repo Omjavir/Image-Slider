@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 5px 10px 21px grey;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 1s;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav button {
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: purple;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 50%;
+    box-shadow: 5px 10px 21px grey;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+  }
+}
